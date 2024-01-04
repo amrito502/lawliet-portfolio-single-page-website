@@ -1,0 +1,64 @@
+@media screen and (max-width: 991px){
+	.search{
+		padding: 4px;
+		margin: 10px 7px;
+		color: #000;
+	}
+
+	.topNav{
+		background-color: gray!important;
+		color: #fff!important;
+		padding: 16px 20px;
+		margin-left: 0!important;
+		margin-top: 10px!important;
+		border-radius: 6px;
+	}
+	.topNav a{
+		color: #000!important;
+		font-size: 15px!important;
+		font-weight: 500;
+	}
+
+
+/*========================hero-section start===================*/
+#heroArea{
+	background-color: #F9F8F9;
+}
+.heroText{}
+.heroText h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #094B72;
+    letter-spacing: 2px;
+    padding: 127px 0 25px 0px;
+}
+.heroText p{
+
+    color: #4F4F4F;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+    font-weight: 400;
+    padding: 0px 0 7px 0;
+}
+.heroText .heroBtn{
+	background: #094B72;
+    color: #fff;
+    font-size: 14px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-bottom: 0px;
+}
+.heroText img{
+	padding: 50px 0 0 0
+}
+
+
+.heroImg{
+	margin-top: 127px;
+}
+.heroImg img{
+	width: 100%;
+}
+/*========================hero-section end===================*/
+}

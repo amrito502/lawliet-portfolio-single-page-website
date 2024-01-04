@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*===========================common-code-start========================*/
+/*====================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+body {
+  /* font-family: 'Playfair Display', serif; */
+  font-weight: normal;
+  font-size: 17px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===========================common-code-end========================*/
+/*====================================================================*/
+
+/*========================topbar start===================*/
+.topNav {
+  margin-left: 350px !important;
+}
+.nav-item {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.search {
+  cursor: pointer;
+}
+/*========================topbar end===================*/
+
+/*========================hero-section start===================*/
+#heroArea {
+  background-color: #f9f8f9;
+}
+
+.heroText h1 {
+  font-size: 69px;
+  font-weight: 800;
+  color: #094b72;
+  letter-spacing: 4px;
+  padding: 128px 0 30px 0px;
+}
+.heroText p {
+  color: #4f4f4f;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 3rem;
+  font-weight: 500;
+  padding: 0px 0 10px 0;
+}
+.heroText .heroBtn {
+  background: #094b72;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.heroText img {
+  padding: 50px 0 0 0;
+}
+
+.heroImg img {
+  width: 100%;
+}
+/*========================hero-section end===================*/
+
+/*========================terms-section start===================*/
+#termsSection {
+  background-color: #f2fcff;
+  padding: 90px 0;
+}
+.termsText {
+  padding: 91px 0 0 0;
+}
+.termsText h3 {
+  font-size: 50px;
+  line-height: 58px;
+  font-weight: 700;
+  padding: 0 0 40px;
+  letter-spacing: 1px;
+}
+.termsText p {
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.services {
+  width: 100%;
+}
+
+.service {
+  padding: 12px;
+  margin: 5px;
+  width: 48%;
+  float: left;
+  height: 263px;
+  background: #028ca4;
+  box-shadow: 3px 4px 8px #9b8999;
+}
+.service img {
+  padding: 10px 0 0 10px;
+  box-shadow: 2px 2px 4px 0px #165887;
+  border-radius: 25px;
+}
+.service h4 {
+  padding: 21px 0 5px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.service p {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px #028ca4;
+}
+
+/*========================terms-section end===================*/
+
+/*========================counter-section start===================*/
+#counterSection {
+  background: url(img/Patterns.png), #1282a6;
+  /*opacity: .6;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainCounter {
+  padding: 70px;
+  position: relative;
+}
+.mainCounter h2 {
+  text-align: center;
+  padding: 0 0 8px 0;
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.mainCounter p {
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+}
+.counters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.counters::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 75px;
+  background-color: #9daab5;
+  left: 368px;
+  top: 210px;
+}
+
+.counters::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 75px;
+  background-color: #9daab5;
+  left: 688px;
+  top: 210px;
+}
+
+.counter h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+.counter p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+/*========================counter-section end===================*/
+
+/*========================client-section start===================*/
+#clientSection {
+  background: #f4fbff;
+  padding: 30px 0;
+}
+
+.mainClient h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.clients {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.client {
+  background: #028ca4;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 1px 1px 0px #028ca4;
+  margin: 15px;
+  padding: 25px;
+}
+
+.shap {
+  position: absolute;
+  display: block;
+  border: 14px solid transparent;
+  height: 0;
+  width: 0;
+  border-top-color: #028ca4;
+  left: 50%;
+  bottom: -28px;
+  transform: translate(-50%);
+}
+.client h5 {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: #fff;
+}
+.client p {
+  padding: 17px;
+  text-align: justify;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.profileLogo {
+  padding-right: 19px;
+}
+
+.profileTitle h6 {
+  font-weight: 800;
+}
+.profileTitle p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/*========================client-section end===================*/
+
+/*========================about-section start===================*/
+#aboutSection {
+  padding: 45px 0;
+}
+
+.aboutLeft h3 {
+  font-size: 47px;
+  font-weight: 800;
+  padding-bottom: 20px;
+  padding-top: 35px;
+}
+.aboutLeft p {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 600;
+}
+.aboutLeft a {
+  background: #0f6e8c;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.aboutRight img {
+  width: 100%;
+}
+/*========================about-section end===================*/
+
+/*===========footerSection=================*/
+
+#footerSection {
+  background-color: #0f6e8c;
+  padding: 71px 0;
+}
+
+.footerlink h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footerlink a {
+  text-decoration: none;
+  color: #fff;
+  padding-top: 8px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+/*=====================*/
+
+#copyRight {
+  background-color: #05546d;
+}
+.mainCopy {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.copyright p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.social a {
+  color: #fff;
+  border: 1px solid #0f6e8c;
+  border-radius: 35%;
+  padding: 4px;
+  font-size: 13px;
+  background: transparent;
+  margin: 0 7px 0 0;
+  transition: 0.3s;
+}
+.social a:hover {
+  background-color: #0f6e8c;
+  color: #fff;
+}
